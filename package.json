@@ -8,5 +8,5 @@
     "qrcode-terminal": "^0.12.0",     
     "node-cron": "^3.0.3"
   },
-  "engines": { "node": "18.x" }
+  "engines": { "node": ">=18.x" }
 }

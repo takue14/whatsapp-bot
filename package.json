@@ -1,0 +1,12 @@
+{
+  "name": "zimbabwe-whatsapp-bot",
+  "version": "1.0.0",
+  "main": "whatsapp_sender.js",
+  "scripts": { "start": "node whatsapp_sender.js" },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",     
+    "node-cron": "^3.0.3"
+  },
+  "engines": { "node": "18.x" }
+}

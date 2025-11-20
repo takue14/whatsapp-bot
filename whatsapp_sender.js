@@ -60,11 +60,8 @@ async function sendToAllGroups() {
 // ============ 4 DAILY TIMES (INDIAN STANDARD TIME) ============
 cron.schedule('53 13 * * *', sendToAllGroups, { timezone: 'Asia/Kolkata' }); // 1:53 PM
 cron.schedule('0 15 * * *',  sendToAllGroups, { timezone: 'Asia/Kolkata' }); // 3:00 PM
-cron.schedule('0 17 * * *',  sendToAllGroups, { timezone: 'Asia/Kolkata' }); // 8:00 PM
 cron.schedule('0 18 * * *',  sendToAllGroups, { timezone: 'Asia/Kolkata' }); // 6:00 PM
 cron.schedule('0 20 * * *',  sendToAllGroups, { timezone: 'Asia/Kolkata' }); // 8:00 PM
-cron.schedule('0 22 * * *',  sendToAllGroups, { timezone: 'Asia/Kolkata' }); // 8:00 PM
-
 
 client.on('disconnected', (reason) => console.log('Disconnected:', reason));
 client.initialize();

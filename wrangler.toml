@@ -1,6 +1,0 @@
-name = "surepoint-bot"
-compatibility_date = "2025-11-20"
-main = "whatsapp_sender.js"
-
-[vars]
-NODE_ENV = "production"
